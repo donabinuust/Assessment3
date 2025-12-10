@@ -1,0 +1,304 @@
+[
+    {
+        "actionName": "Automobile",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: app.php",
+                "infFile": "t3.inf",
+                "time": 1765358922598
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "select vehicle",
+                "rawStartTime": 1765358921071,
+                "rawEndTime": 1765358922605,
+                "thinkTime": 0.0,
+                "wastedTime": 0.026883840560913087
+            }
+        ]
+    },
+    {
+        "actionName": "VehicleData",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "select make",
+                "rawStartTime": 1765358922636,
+                "rawEndTime": 1765358922651,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter engine performance",
+                "rawStartTime": 1765358922668,
+                "rawEndTime": 1765358922684,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter date of manufacture",
+                "rawStartTime": 1765358922700,
+                "rawEndTime": 1765358922716,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter no of seats",
+                "rawStartTime": 1765358922732,
+                "rawEndTime": 1765358922747,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter fuel type",
+                "rawStartTime": 1765358922764,
+                "rawEndTime": 1765358922780,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter list price",
+                "rawStartTime": 1765358922796,
+                "rawEndTime": 1765358922811,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter license plate no",
+                "rawStartTime": 1765358922828,
+                "rawEndTime": 1765358922843,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter annual mileage",
+                "rawStartTime": 1765358922860,
+                "rawEndTime": 1765358922875,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "click on next button",
+                "rawStartTime": 1765358922892,
+                "rawEndTime": 1765358922908,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    },
+    {
+        "actionName": "InsurantData",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "enter first name",
+                "rawStartTime": 1765358922940,
+                "rawEndTime": 1765358922956,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter last name",
+                "rawStartTime": 1765358922972,
+                "rawEndTime": 1765358922987,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select date of birth",
+                "rawStartTime": 1765358923004,
+                "rawEndTime": 1765358923019,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select gender",
+                "rawStartTime": 1765358923036,
+                "rawEndTime": 1765358923052,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter address",
+                "rawStartTime": 1765358923067,
+                "rawEndTime": 1765358923083,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select country",
+                "rawStartTime": 1765358923099,
+                "rawEndTime": 1765358923115,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter zip code",
+                "rawStartTime": 1765358923131,
+                "rawEndTime": 1765358923146,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter city",
+                "rawStartTime": 1765358923163,
+                "rawEndTime": 1765358923178,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select occupation",
+                "rawStartTime": 1765358923195,
+                "rawEndTime": 1765358923210,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select hobbies",
+                "rawStartTime": 1765358923227,
+                "rawEndTime": 1765358923242,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "click next",
+                "rawStartTime": 1765358923258,
+                "rawEndTime": 1765358923273,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    },
+    {
+        "actionName": "ProductData",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "select start date",
+                "rawStartTime": 1765358923304,
+                "rawEndTime": 1765358923319,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select insurance sum",
+                "rawStartTime": 1765358923335,
+                "rawEndTime": 1765358923351,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select merit rating",
+                "rawStartTime": 1765358923366,
+                "rawEndTime": 1765358923382,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select damage insurance",
+                "rawStartTime": 1765358923398,
+                "rawEndTime": 1765358923414,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select optional products",
+                "rawStartTime": 1765358923430,
+                "rawEndTime": 1765358923446,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "select courtesy car",
+                "rawStartTime": 1765358923462,
+                "rawEndTime": 1765358923478,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "click on next button",
+                "rawStartTime": 1765358923494,
+                "rawEndTime": 1765358923510,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    },
+    {
+        "actionName": "PriceOption",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "select option",
+                "rawStartTime": 1765358923542,
+                "rawEndTime": 1765358923558,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "click on next button",
+                "rawStartTime": 1765358923574,
+                "rawEndTime": 1765358923590,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    },
+    {
+        "actionName": "SendQuote",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: quote.php",
+                "infFile": "t4.inf",
+                "time": 1765358924298
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "enter email",
+                "rawStartTime": 1765358923622,
+                "rawEndTime": 1765358923638,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter phone",
+                "rawStartTime": 1765358923654,
+                "rawEndTime": 1765358923670,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter username",
+                "rawStartTime": 1765358923686,
+                "rawEndTime": 1765358923702,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "enter password",
+                "rawStartTime": 1765358923718,
+                "rawEndTime": 1765358923734,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "confirm password",
+                "rawStartTime": 1765358923750,
+                "rawEndTime": 1765358923766,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "click send button",
+                "rawStartTime": 1765358923782,
+                "rawEndTime": 1765358923798,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

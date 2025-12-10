@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\SampleTricentis
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\sampletricentis\\logfile.log
+c:\users\administrator\documents\vugen\scripts\sampletricentis\\combined_SampleTricentis.c
+c:\users\administrator\documents\vugen\scripts\sampletricentis\\pre_cci.c

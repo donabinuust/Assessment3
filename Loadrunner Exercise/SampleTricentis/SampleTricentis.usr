@@ -1,0 +1,120 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SampleTricentis.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2023
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2023.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2023.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Automobile=Automobile.c
+VehicleData=VehicleData.c
+InsurantData=InsurantData.c
+ProductData=ProductData.c
+PriceOption=PriceOption.c
+SendQuote=SendQuote.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Automobile=1
+VehicleData=1
+InsurantData=1
+ProductData=1
+PriceOption=1
+SendQuote=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=1
+Automobile=1
+VehicleData=1
+InsurantData=1
+ProductData=1
+PriceOption=1
+SendQuote=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Automobile=1
+VehicleData=1
+InsurantData=1
+ProductData=1
+PriceOption=1
+SendQuote=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Automobile=cci
+VehicleData=cci
+InsurantData=cci
+ProductData=cci
+PriceOption=cci
+SendQuote=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="select vehicle__*delimiter*__select make__*delimiter*__enter engine performance__*delimiter*__enter date of manufacture__*delimiter*__enter no of seats__*delimiter*__enter fuel type__*delimiter*__enter list price__*delimiter*__enter license plate no__*delimiter*__enter annual mileage__*delimiter*__click on next button__*delimiter*__enter first name__*delimiter*__enter last name__*delimiter*__select date of birth__*delimiter*__select gender__*delimiter*__enter address__*delimiter*__select country__*delimiter*__enter zip code__*delimiter*__enter city__*delimiter*__select occupation__*delimiter*__select hobbies__*delimiter*__click next__*delimiter*__select start date__*delimiter*__select insurance sum__*delimiter*__select merit rating__*delimiter*__select damage insurance__*delimiter*__select optional products__*delimiter*__select courtesy car__*delimiter*__click on next button__*delimiter*__select option__*delimiter*__click on next button__*delimiter*__enter email__*delimiter*__enter phone__*delimiter*__enter username__*delimiter*__enter password__*delimiter*__confirm password__*delimiter*__click send button"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"select vehicle"=
+"select make"=
+"enter engine performance"=
+"enter date of manufacture"=
+"enter no of seats"=
+"enter fuel type"=
+"enter list price"=
+"enter license plate no"=
+"enter annual mileage"=
+"click on next button"=
+"enter first name"=
+"enter last name"=
+"select date of birth"=
+"select gender"=
+"enter address"=
+"select country"=
+"enter zip code"=
+"enter city"=
+"select occupation"=
+"select hobbies"=
+"click next"=
+"select start date"=
+"select insurance sum"=
+"select merit rating"=
+"select damage insurance"=
+"select optional products"=
+"select courtesy car"=
+"select option"=
+"enter email"=
+"enter phone"=
+"enter username"=
+"enter password"=
+"confirm password"=
+"click send button"=
